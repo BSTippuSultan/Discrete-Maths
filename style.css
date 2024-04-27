@@ -1,0 +1,112 @@
+* {
+    font-family: sans-serif;
+
+    color: rgb(17, 17, 17);
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(215, 254, 253);
+
+}
+nav {
+    position: fixed;
+    top: 0;
+    height: 2cm;
+    background-color: darkcyan;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+.logo {
+    font-size: xx-large;
+    color: white;
+}
+nav ul{
+    display: flex;
+    padding: 12px;
+    margin-top: 0px;
+}
+
+nav ul li{
+
+ padding: 20px; 
+   color: white;
+   font-size: large;
+   margin-right: 0.5cm;
+
+}
+nav ul li:hover {
+text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    font-size: large;
+}    
+
+nav div{
+    display: flex;
+    align-items: center;
+    margin-left: 2vw ;
+}
+main {
+    margin: 0;
+    margin-top: 2.2cm;
+    padding: 0;
+    height: 86.8vh;
+    width: 99.8%;    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.im{
+width: 20cm;
+/*border: 2px solid black;*/
+margin: 0;
+background-color: white;
+padding: 10px;
+letter-spacing: 0.05rem;
+line-height: 2.5rem;
+
+/*letter-spacing: 0.05rem;*/
+}
+.text{
+
+    font-size: larger;
+    line-height: 1.5rem;
+    color: rgb(62, 61, 61);
+    padding-bottom: 1cm;
+}
+.textHeadings {
+    font-size: larger; font-weight: bold;
+    margin:0px ;
+
+    padding-top:0;
+    padding-bottom: 0;
+}
+.insideHeading {
+    display: inline-block;
+    font-size: large; font-weight: bold;
+}
+
+.imSLIDE {
+
+    width: 20cm;
+    border: 2px solid black;
+    margin: 0;
+    background-color: white;
+    padding: 10px;
+    /*letter-spacing: 0.05rem;*/
+}
+.imSLIDE img{
+    width: 100%;
+}
+.line{
+    width: 20cm; height: 0px;
+    border: 1px solid darkcyan;
+}

@@ -1,0 +1,176 @@
+* {
+    font-family:sans-serif;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    
+    background-color: rgb(215, 254, 253);
+}
+nav {
+    position: fixed;
+    top: 0;
+    height: 2cm;
+    background-color: darkcyan;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+.logo {
+    font-size: xx-large;
+    color: white;
+}
+nav ul{
+    display: flex;
+    padding: 12px;
+    margin-top: 0px;
+}
+
+nav ul li{
+
+   padding: 20px; 
+   color: white;
+   font-size: large;
+   margin-right: 0.5cm;
+
+}
+nav ul li:hover {
+text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    font-size: large;
+}    
+
+nav div{
+    display: flex;
+    align-items: center;
+    margin-left: 2vw ;
+}
+main {
+    margin: 0;
+    padding:0;
+    height: 86.8vh;
+
+    width: 99.8%;
+    margin-top: 2cm;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.i_o {
+    height: 82%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 5px;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+    
+}
+.input {
+width: 50%;
+overflow-y: auto;
+overflow-x: hidden;
+}
+.output {
+    width: 30%;
+    overflow: hidden;
+
+}
+.bar {
+    height: 1.2cm;
+    width: 100%;
+    background-color:rgb(7, 253, 253);
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    line-height: 2rem;
+}
+.i_box {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color:rgb(234, 254, 253) ;
+    height: 3cm;
+    width:  90%;
+    margin: 10px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.labelIO {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputIO{
+padding: 2px;
+margin:0.2cm;
+height: 0.55cm ;
+font-size: large ;
+min-width:4cm ;
+}
+button {
+    padding: 2px 4px 2px 4px;
+    margin:0.2cm;
+    width: 4cm;
+    font-size: large;
+    font-weight: bold;
+    border: 1px solid black;
+    background-color: rgb(111, 251, 204);
+    border-radius: 4px;
+    height: 0.8cm;
+} button:hover {
+    background-color:rgb(7, 253, 253);
+
+}
+
+.o_box {
+    margin: 0;
+    padding: 0.2cm;
+    padding-top: 0cm;
+    width:  95%; height:100%;
+    overflow-y: auto;
+    margin: 10px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.outputformat{
+width: 95%;
+border: 2px solid black;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 10px 2px 2px 2px;
+justify-content: center;
+}
+.outArray {
+    height: 0.9cm;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2px;
+}
+.outOne , .outTwo {
+    height: 90%;
+    width: 48%;
+    border: 2px solid black; 
+    text-align: center;
+    line-height: 2rem;
+}

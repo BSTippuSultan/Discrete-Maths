@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cutset</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="cutset_style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="logo" width="50px"> &nbsp;&nbsp; Discrete Maths
+        </div>
+        <ul type="none">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="cutset.html"  style="text-decoration: underline;" >Cutset&nbsp;</a></li>
+            <li><a href="cutsetpdf.html">Slide</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <div class="i_o input">
+            <div class="bar">
+                Finding least connected edges
+            </div>
+                <div class="vertexinputBox i_box">
+                    Add vertices
+                </div>
+                <label for="vertexInput" class="labelIO">
+                    <input type="text" id="vertexInput" class="inputIO">
+                </label>     
+                    <div>
+                        <button type="submit" id="addVertex" >Add Vertex</button>
+                        <button type="submit" id="removeVertex" disabled >Remove Vertex</button>
+                    </div>
+                    
+               
+            <div class="edgeinputBox i_box">
+                Add edges to graph after vertices
+            </div>
+            <label for="edgeInputONE" class="labelIO">
+                <input type="text" id="edgeInputONE" class="inputIO">                
+            </label>
+
+            <label for="edgeInputTWO" class="labelIO">
+                <input type="text" id="edgeInputTWO" class="inputIO">                
+            </label>
+            <div>
+                <button type="submit" id="addEdge" >Add Edge</button>
+                <button type="submit" id="removeEdge" disabled>Remove Edge</button>
+
+            </div>
+            
+
+            <div >
+            <button type="submit" id="calculate" style="background-color: green;">Find</button>
+            <button type="submit" id="Reset" style="background-color: yellow;">Reset</button>
+            </div>
+        </div>
+
+        <div class="i_o output">
+            <div class="bar">
+                Least connected edges
+            </div>
+
+            <div class="order" style="margin-top: 10px;">
+                    Maximum Order : 
+                    <input type="radio" name="order" id="ONE" value="1"  class="orderInput" checked> <label for="ONE">1</label>
+                    <input type="radio" name="order" id="TWO"  value="2"  class="orderInput"> <label for="TWO">2</label>
+                    <input type="radio" name="order" id="THREE"  value="3" class="orderInput"> <label for="THREE">3</label>
+            </div>
+
+            <div class="edgesOutput o_box ">
+<!-- for the reference of style-->
+<!--
+                <div class="outputformat">
+                    <div class="arrayHeading">
+                        Array
+                    </div>
+
+                    <div class="outArray">
+                        <div class="outOne">123456789</div>
+                        <div class="outTwo"></div>
+                    </div>
+                    <div class="outArray">
+                        <div class="outOne">123456789</div>
+                        <div class="outTwo"></div>
+                    </div>
+                    <div class="outArray">
+                        <div class="outOne">123456789</div>
+                        <div class="outTwo"></div>
+                    </div>                    
+                </div>
+                
+-->
+    
+            </div>
+            </div>
+        </div>
+        
+    </main>
+</body>
+<script src="cutset.js"></script>
+</html>
